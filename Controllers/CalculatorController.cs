@@ -121,7 +121,7 @@ namespace CalculatorEmul.Controllers
             }
 
             // Эндпоинт ответа
-            string uri = "http://localhost:5000/Calculator";
+            string uri = "https://185.233.2.14/Calculator.asmx";
 
             string response = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:tem=\"http://tempuri.org/\">" + 
                                 "<soapenv:Header/>" + 
